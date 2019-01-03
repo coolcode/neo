@@ -1,4 +1,4 @@
-_NOTE: This is a new version which supported .net core + macOS based on NEO 2.9.4._
+## _NOTE: This is a new version which supported .net core + macOS based on NEO 2.9.4._
 
 ## Prerequisites
 
