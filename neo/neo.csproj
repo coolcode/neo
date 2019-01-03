@@ -15,9 +15,12 @@
     <RepositoryUrl>https://github.com/neo-project/neo.git</RepositoryUrl>
     <RootNamespace>Neo</RootNamespace>
     <Company>The Neo Project</Company>
-    <Description>Neo</Description>
+    <Description>Neo (support dotnet core)</Description>
   </PropertyGroup>
 
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)'=='Release'">
     <DebugType>none</DebugType>
     <DebugSymbols>False</DebugSymbols>
@@ -41,10 +44,6 @@
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.2.0" />
     <PackageReference Include="Neo.VM" Version="2.3.3.1" />
     <PackageReference Include="System.Text.Encodings.Web" Version="4.5.0" />
-  </ItemGroup>
-
-  <ItemGroup Condition="'$(TargetFramework)' == 'net47'">
-    <PackageReference Include="Replicon.Cryptography.SCrypt" Version="1.1.6.13" />
   </ItemGroup>
 
 </Project>
