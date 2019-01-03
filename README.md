@@ -10,11 +10,11 @@ e.g.
 
 -   **macOS**:
     -   Install latest C++ compiler that supports C++ 11:
-        _ Update XCode: run `xcode-select --install` (or install it from XCode App's settting).
-        _ Install via [homebrew](http://brew.sh/).
-        _ If you're first time developer in MacOS, you still need to run: `xcode-select --install` in your command line.
-        _ run `brew tap homebrew/versions; brew install gcc48 --use-llvm` to install gcc 4.8 (or higher).
-        -   run `brew install rocksdb`
+    -   Update XCode: run `xcode-select --install` (or install it from XCode App's settting).
+    -   Install via [homebrew](http://brew.sh/).
+    -   If you're first time developer in MacOS, you still need to run: `xcode-select --install` in your command line.
+    -   run `brew tap homebrew/versions; brew install gcc48 --use-llvm` to install gcc 4.8 (or higher).
+    -   run `brew install rocksdb`
 
 # NEO: A distributed network for the Smart Economy
 
