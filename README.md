@@ -1,5 +1,7 @@
 ## _NOTE: This is a new version which supported .net core + macOS based on NEO 2.9.4._
 
+[![Build Status](https://travis-ci.com/coolcode/neo.svg?branch=master)](https://travis-ci.com/coolcode/neo)
+
 ## Prerequisites
 
 1. Install [.NET Core](https://www.microsoft.com/net/download/core).
